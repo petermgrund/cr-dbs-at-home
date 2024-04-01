@@ -1,35 +1,43 @@
 ---
-title: Home
+title: Getting started
 layout: home
+nav_order: 1
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+<h1>{{page.title}}</h1>
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
-More specifically, the created site:
+This site will help you complete the at-home portion of the CR-DBS study. You'll find easy-to-follow instructions on how to use the iPad and tremor monitoring.
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+## How to use this site
+The left sidebar contains a list of all the pages. Click on a page to view its contents. You can also use the large arrows at the bottom of each page to navigate between pages.
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+## What you'll need
+1. **iPad**: You'll use the iPad to complete tasks.
+2. **Watch**: You'll wear this device to monitor your tremors.
+3. **Log**: You'll use this to record when you complete tasks.
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+## Need help?
+If you have any questions or need help, please contact the study team at 
+* Phone: **612-624-6434**
+* Email: **grund130@umn.edu**
 
-To get started with creating a site, simply:
-
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
-
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
-
-----
-
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
-
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+<div style="display: flex; justify-content: space-between;">
+    <a href="" style="text-decoration: none; flex: 1;">
+        <div style="display: flex; justify-content: center; align-items: center; height: 100px; background-color: #ffffff; margin: 20px; flex-direction: column;">
+            <div style="flex-grow: 1; display: flex; align-items: center;">
+                <i class="fas fa-arrow-left" style="font-size: 50px; color: white;"></i>
+            </div>
+            <p style="color: white; margin-top: 5px; margin-bottom: 10px;">Previous Page Title</p>
+        </div>
+    </a>
+    <a href="{{ site.baseurl }}/ipad.html" style="text-decoration: none; flex: 1;">
+        <div style="display: flex; justify-content: center; align-items: center; height: 100px; background-color: #7253ed; margin: 20px; flex-direction: column;">
+            <div style="flex-grow: 1; display: flex; align-items: center;">
+                <i class="fas fa-arrow-right" style="font-size: 50px; color: white;"></i>
+            </div>
+            <p style="color: white; margin-top: 5px; margin-bottom: 10px;">iPad</p>
+        </div>
+    </a>
+</div>
